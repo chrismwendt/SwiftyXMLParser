@@ -10,15 +10,10 @@
 		2B225AAF1CBCBA40002282BD /* SimpleDocument.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2B225AAE1CBCBA40002282BD /* SimpleDocument.xml */; };
 		2B6D92371C7F0587000D2D06 /* SwiftyXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6D92361C7F0587000D2D06 /* SwiftyXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B6D923E1C7F0587000D2D06 /* SwiftyXMLParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6D92331C7F0587000D2D06 /* SwiftyXMLParser.framework */; };
-		2B6D92431C7F0587000D2D06 /* SwiftyXMLParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D92421C7F0587000D2D06 /* SwiftyXMLParserTests.swift */; };
 		2B6D92511C7F059B000D2D06 /* XML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D924D1C7F059B000D2D06 /* XML.swift */; };
 		2B6D92521C7F059B000D2D06 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D924E1C7F059B000D2D06 /* Element.swift */; };
 		2B6D92531C7F059B000D2D06 /* Accessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D924F1C7F059B000D2D06 /* Accessor.swift */; };
 		2B6D92541C7F059B000D2D06 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D92501C7F059B000D2D06 /* Parser.swift */; };
-		2BD9432B1CB220E0007D5FFC /* XMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9432A1CB220E0007D5FFC /* XMLTests.swift */; };
-		2BD9432D1CB220E5007D5FFC /* ParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9432C1CB220E5007D5FFC /* ParserTests.swift */; };
-		2BD9432F1CB220EA007D5FFC /* AccessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9432E1CB220EA007D5FFC /* AccessorTests.swift */; };
-		2BD943311CB220F1007D5FFC /* CustomOperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD943301CB220F1007D5FFC /* CustomOperatorTests.swift */; };
 		2BD943341CB22107007D5FFC /* BrokenXMLDocument.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2BD943331CB22107007D5FFC /* BrokenXMLDocument.xml */; };
 		2BD943361CB2210D007D5FFC /* XMLDocument.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2BD943351CB2210D007D5FFC /* XMLDocument.xml */; };
 		2BD943381CB23CFE007D5FFC /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD943371CB23CFE007D5FFC /* Error.swift */; };
@@ -39,17 +34,11 @@
 		2B6D92331C7F0587000D2D06 /* SwiftyXMLParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyXMLParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6D92361C7F0587000D2D06 /* SwiftyXMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyXMLParser.h; sourceTree = "<group>"; };
 		2B6D92381C7F0587000D2D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B6D923D1C7F0587000D2D06 /* SwiftyXMLParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyXMLParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B6D92421C7F0587000D2D06 /* SwiftyXMLParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyXMLParserTests.swift; sourceTree = "<group>"; };
 		2B6D92441C7F0587000D2D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B6D924D1C7F059B000D2D06 /* XML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XML.swift; sourceTree = "<group>"; };
 		2B6D924E1C7F059B000D2D06 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
 		2B6D924F1C7F059B000D2D06 /* Accessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accessor.swift; sourceTree = "<group>"; };
 		2B6D92501C7F059B000D2D06 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		2BD9432A1CB220E0007D5FFC /* XMLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLTests.swift; sourceTree = "<group>"; };
-		2BD9432C1CB220E5007D5FFC /* ParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParserTests.swift; sourceTree = "<group>"; };
-		2BD9432E1CB220EA007D5FFC /* AccessorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessorTests.swift; sourceTree = "<group>"; };
-		2BD943301CB220F1007D5FFC /* CustomOperatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOperatorTests.swift; sourceTree = "<group>"; };
 		2BD943331CB22107007D5FFC /* BrokenXMLDocument.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BrokenXMLDocument.xml; sourceTree = "<group>"; };
 		2BD943351CB2210D007D5FFC /* XMLDocument.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = XMLDocument.xml; sourceTree = "<group>"; };
 		2BD943371CB23CFE007D5FFC /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
@@ -79,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				2B6D92351C7F0587000D2D06 /* SwiftyXMLParser */,
-				2B6D92411C7F0587000D2D06 /* SwiftyXMLParserTests */,
 				2B6D92341C7F0587000D2D06 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				2B6D92331C7F0587000D2D06 /* SwiftyXMLParser.framework */,
-				2B6D923D1C7F0587000D2D06 /* SwiftyXMLParserTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,20 +93,6 @@
 				81B640ED1FC77E6400BE1AB5 /* Config.xcconfig */,
 			);
 			path = SwiftyXMLParser;
-			sourceTree = "<group>";
-		};
-		2B6D92411C7F0587000D2D06 /* SwiftyXMLParserTests */ = {
-			isa = PBXGroup;
-			children = (
-				2BD943321CB220FA007D5FFC /* Fixture */,
-				2B6D92421C7F0587000D2D06 /* SwiftyXMLParserTests.swift */,
-				2BD9432A1CB220E0007D5FFC /* XMLTests.swift */,
-				2BD9432C1CB220E5007D5FFC /* ParserTests.swift */,
-				2BD9432E1CB220EA007D5FFC /* AccessorTests.swift */,
-				2BD943301CB220F1007D5FFC /* CustomOperatorTests.swift */,
-				2B6D92441C7F0587000D2D06 /* Info.plist */,
-			);
-			path = SwiftyXMLParserTests;
 			sourceTree = "<group>";
 		};
 		2BD943321CB220FA007D5FFC /* Fixture */ = {
@@ -164,24 +137,6 @@
 			productReference = 2B6D92331C7F0587000D2D06 /* SwiftyXMLParser.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2B6D923C1C7F0587000D2D06 /* SwiftyXMLParserTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B6D924A1C7F0587000D2D06 /* Build configuration list for PBXNativeTarget "SwiftyXMLParserTests" */;
-			buildPhases = (
-				2B6D92391C7F0587000D2D06 /* Sources */,
-				2B6D923A1C7F0587000D2D06 /* Frameworks */,
-				2B6D923B1C7F0587000D2D06 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2B6D92401C7F0587000D2D06 /* PBXTargetDependency */,
-			);
-			name = SwiftyXMLParserTests;
-			productName = SwiftyXMLParserTests;
-			productReference = 2B6D923D1C7F0587000D2D06 /* SwiftyXMLParserTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,7 +170,6 @@
 			projectRoot = "";
 			targets = (
 				2B6D92321C7F0587000D2D06 /* SwiftyXMLParser */,
-				2B6D923C1C7F0587000D2D06 /* SwiftyXMLParserTests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,18 +204,6 @@
 				2B6D92511C7F059B000D2D06 /* XML.swift in Sources */,
 				2BD943381CB23CFE007D5FFC /* Error.swift in Sources */,
 				2B6D92531C7F059B000D2D06 /* Accessor.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B6D92391C7F0587000D2D06 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2BD943311CB220F1007D5FFC /* CustomOperatorTests.swift in Sources */,
-				2BD9432F1CB220EA007D5FFC /* AccessorTests.swift in Sources */,
-				2B6D92431C7F0587000D2D06 /* SwiftyXMLParserTests.swift in Sources */,
-				2BD9432B1CB220E0007D5FFC /* XMLTests.swift in Sources */,
-				2BD9432D1CB220E5007D5FFC /* ParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,30 +362,6 @@
 			};
 			name = Release;
 		};
-		2B6D924B1C7F0587000D2D06 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SwiftyXMLParserTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yahoo.shopping.SwiftyXMLParserTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		2B6D924C1C7F0587000D2D06 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SwiftyXMLParserTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yahoo.shopping.SwiftyXMLParserTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -461,15 +379,6 @@
 			buildConfigurations = (
 				2B6D92481C7F0587000D2D06 /* Debug */,
 				2B6D92491C7F0587000D2D06 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2B6D924A1C7F0587000D2D06 /* Build configuration list for PBXNativeTarget "SwiftyXMLParserTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B6D924B1C7F0587000D2D06 /* Debug */,
-				2B6D924C1C7F0587000D2D06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
