@@ -28,18 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2B6D923C1C7F0587000D2D06"
-               BuildableName = "SwiftyXMLParserTests.xctest"
-               BlueprintName = "SwiftyXMLParserTests"
-               ReferencedContainer = "container:SwiftyXMLParser.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
